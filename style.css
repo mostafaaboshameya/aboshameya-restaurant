@@ -1,0 +1,103 @@
+body
+{
+font-family: 'segoe ui light';
+background-color:tan;
+}
+.header h1{
+    font-size: 100px;
+    color: black;
+    margin: 10px;
+}
+.header .special{
+    font-size: 30px;
+    color:chocolate;
+    margin: -45px 0px;
+}
+
+.caption
+{
+width: 80%;
+left: 10%;
+bottom: 10%;
+border-radius: 15px;
+background-color: rgba(255, 255, 255,0.5);
+}
+
+.item
+{
+cursor: pointer;
+margin: 15px;
+
+}
+.item .mark{
+    font-size: 20px;
+    color: aliceblue;
+    width: 70px;
+    height: 90px;
+    right:30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:rgba(0,0,0,0.5);
+
+}
+.item img {
+    border-radius: 10%;
+}
+
+#lightBoxContainer
+{
+position: fixed;
+display: none;
+left: 0px;
+ top: 0px;
+bottom: 0px;
+right: 0px;
+background-color: rgba(0,0,0,0.54);
+}
+
+#lightBoxItem
+{
+    width: 45%;
+    height:500px ;
+    background-position: center center;
+    background-size:cover ;
+    border-radius: 20px; 
+}
+
+i
+{
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+#close
+{
+    right: 15px;
+    top: 15px;
+}
+.contact {
+    background-color:black;
+}
+.contact h4{
+    font-size: 60px;
+    color: chocolate;
+}
+.contact p{
+    font-size: 25px;
+    color:chocolate ;
+}
+.contact a{
+    font-size:25px ;
+    color: chocolate;
+    
+}
+.contact a:hover{
+    color: aliceblue;
+    font-size: 35px;
+}
+.logo i{
+    color: chocolate;
+}
+.logo i:hover{
+    color: aliceblue;
+}
